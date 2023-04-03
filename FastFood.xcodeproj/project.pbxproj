@@ -13,6 +13,30 @@
 		D9DC0C2529DAC38F005F80C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DC0C2429DAC38F005F80C1 /* Assets.xcassets */; };
 		D9DC0C2829DAC38F005F80C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DC0C2629DAC38F005F80C1 /* LaunchScreen.storyboard */; };
 		D9DC0C3529DACFDF005F80C1 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C3429DACFDF005F80C1 /* Tab.swift */; };
+		D9DC0C3829DAD405005F80C1 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C3729DAD405005F80C1 /* Icons.swift */; };
+		D9DC0C3A29DAD456005F80C1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C3929DAD456005F80C1 /* Colors.swift */; };
+		D9DC0C3D29DAD78A005F80C1 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C3C29DAD78A005F80C1 /* Fonts.swift */; };
+		D9DC0C4029DAD7AA005F80C1 /* TabBarFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C3F29DAD7A9005F80C1 /* TabBarFactory.swift */; };
+		D9DC0C4629DAD86E005F80C1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C4529DAD86E005F80C1 /* MenuViewController.swift */; };
+		D9DC0C4829DAD89D005F80C1 /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C4729DAD89D005F80C1 /* MenuPresenter.swift */; };
+		D9DC0C4A29DAD8A3005F80C1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C4929DAD8A3005F80C1 /* MenuView.swift */; };
+		D9DC0C4E29DAD915005F80C1 /* BagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C4B29DAD915005F80C1 /* BagViewController.swift */; };
+		D9DC0C4F29DAD915005F80C1 /* BagPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C4C29DAD915005F80C1 /* BagPresenter.swift */; };
+		D9DC0C5029DAD915005F80C1 /* BagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C4D29DAD915005F80C1 /* BagView.swift */; };
+		D9DC0C5429DAD952005F80C1 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C5129DAD952005F80C1 /* ContactsViewController.swift */; };
+		D9DC0C5529DAD952005F80C1 /* ContactsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C5229DAD952005F80C1 /* ContactsPresenter.swift */; };
+		D9DC0C5629DAD952005F80C1 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C5329DAD952005F80C1 /* ContactsView.swift */; };
+		D9DC0C5A29DAD964005F80C1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C5729DAD964005F80C1 /* ProfileViewController.swift */; };
+		D9DC0C5B29DAD964005F80C1 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C5829DAD964005F80C1 /* ProfilePresenter.swift */; };
+		D9DC0C5C29DAD964005F80C1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C5929DAD964005F80C1 /* ProfileView.swift */; };
+		D9DC0C5E29DADAB1005F80C1 /* ProfileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C5D29DADAB1005F80C1 /* ProfileFactory.swift */; };
+		D9DC0C6029DADBF8005F80C1 /* UITabBarItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C5F29DADBF8005F80C1 /* UITabBarItem+Extension.swift */; };
+		D9DC0C6229DADCA6005F80C1 /* BagFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C6129DADCA6005F80C1 /* BagFactory.swift */; };
+		D9DC0C6429DADD36005F80C1 /* ContactsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C6329DADD36005F80C1 /* ContactsFactory.swift */; };
+		D9DC0C6629DADD9E005F80C1 /* MenuFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C6529DADD9E005F80C1 /* MenuFactory.swift */; };
+		D9DC0C6829DADF78005F80C1 /* UIVIew+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC0C6729DADF78005F80C1 /* UIVIew+Extension.swift */; };
+		D9DC0C6B29DADFB3005F80C1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D9DC0C6A29DADFB3005F80C1 /* SnapKit */; };
+		D9FA05B029DAE43D002402EA /* SFUIDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9FA05AF29DAE43D002402EA /* SFUIDisplay-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +48,29 @@
 		D9DC0C2729DAC38F005F80C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9DC0C2929DAC38F005F80C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9DC0C3429DACFDF005F80C1 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		D9DC0C3729DAD405005F80C1 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		D9DC0C3929DAD456005F80C1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D9DC0C3C29DAD78A005F80C1 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		D9DC0C3F29DAD7A9005F80C1 /* TabBarFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarFactory.swift; sourceTree = "<group>"; };
+		D9DC0C4529DAD86E005F80C1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		D9DC0C4729DAD89D005F80C1 /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
+		D9DC0C4929DAD8A3005F80C1 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D9DC0C4B29DAD915005F80C1 /* BagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagViewController.swift; sourceTree = "<group>"; };
+		D9DC0C4C29DAD915005F80C1 /* BagPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagPresenter.swift; sourceTree = "<group>"; };
+		D9DC0C4D29DAD915005F80C1 /* BagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagView.swift; sourceTree = "<group>"; };
+		D9DC0C5129DAD952005F80C1 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		D9DC0C5229DAD952005F80C1 /* ContactsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsPresenter.swift; sourceTree = "<group>"; };
+		D9DC0C5329DAD952005F80C1 /* ContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		D9DC0C5729DAD964005F80C1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D9DC0C5829DAD964005F80C1 /* ProfilePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		D9DC0C5929DAD964005F80C1 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D9DC0C5D29DADAB1005F80C1 /* ProfileFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFactory.swift; sourceTree = "<group>"; };
+		D9DC0C5F29DADBF8005F80C1 /* UITabBarItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Extension.swift"; sourceTree = "<group>"; };
+		D9DC0C6129DADCA6005F80C1 /* BagFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagFactory.swift; sourceTree = "<group>"; };
+		D9DC0C6329DADD36005F80C1 /* ContactsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFactory.swift; sourceTree = "<group>"; };
+		D9DC0C6529DADD9E005F80C1 /* MenuFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFactory.swift; sourceTree = "<group>"; };
+		D9DC0C6729DADF78005F80C1 /* UIVIew+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extension.swift"; sourceTree = "<group>"; };
+		D9FA05AF29DAE43D002402EA /* SFUIDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DC0C6B29DADFB3005F80C1 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +114,7 @@
 		D9DC0C2F29DAC488005F80C1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9DC0C3E29DAD78F005F80C1 /* Fonts */,
 				D9DC0C2629DAC38F005F80C1 /* LaunchScreen.storyboard */,
 				D9DC0C2429DAC38F005F80C1 /* Assets.xcassets */,
 			);
@@ -76,7 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				D9DC0C3129DACD23005F80C1 /* App Delegates */,
+				D9DC0C4129DAD82A005F80C1 /* Menu */,
+				D9DC0C4229DAD838005F80C1 /* Contacts */,
+				D9DC0C4329DAD83F005F80C1 /* Profile */,
+				D9DC0C4429DAD845005F80C1 /* Bag */,
 				D9DC0C3329DACFD7005F80C1 /* TabBar */,
+				D9DC0C3629DAD3FA005F80C1 /* FastFoodUI */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -101,10 +155,83 @@
 		D9DC0C3329DACFD7005F80C1 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				D9DC0C3F29DAD7A9005F80C1 /* TabBarFactory.swift */,
 				D9DC0C1F29DAC38E005F80C1 /* TabBarController.swift */,
 				D9DC0C3429DACFDF005F80C1 /* Tab.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D9DC0C3629DAD3FA005F80C1 /* FastFoodUI */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC0C3B29DAD77A005F80C1 /* Extensions */,
+			);
+			path = FastFoodUI;
+			sourceTree = "<group>";
+		};
+		D9DC0C3B29DAD77A005F80C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC0C3929DAD456005F80C1 /* Colors.swift */,
+				D9DC0C3729DAD405005F80C1 /* Icons.swift */,
+				D9DC0C3C29DAD78A005F80C1 /* Fonts.swift */,
+				D9DC0C5F29DADBF8005F80C1 /* UITabBarItem+Extension.swift */,
+				D9DC0C6729DADF78005F80C1 /* UIVIew+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9DC0C3E29DAD78F005F80C1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D9FA05AF29DAE43D002402EA /* SFUIDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D9DC0C4129DAD82A005F80C1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC0C6529DADD9E005F80C1 /* MenuFactory.swift */,
+				D9DC0C4529DAD86E005F80C1 /* MenuViewController.swift */,
+				D9DC0C4729DAD89D005F80C1 /* MenuPresenter.swift */,
+				D9DC0C4929DAD8A3005F80C1 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D9DC0C4229DAD838005F80C1 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC0C6329DADD36005F80C1 /* ContactsFactory.swift */,
+				D9DC0C5229DAD952005F80C1 /* ContactsPresenter.swift */,
+				D9DC0C5129DAD952005F80C1 /* ContactsViewController.swift */,
+				D9DC0C5329DAD952005F80C1 /* ContactsView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		D9DC0C4329DAD83F005F80C1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC0C5D29DADAB1005F80C1 /* ProfileFactory.swift */,
+				D9DC0C5829DAD964005F80C1 /* ProfilePresenter.swift */,
+				D9DC0C5729DAD964005F80C1 /* ProfileViewController.swift */,
+				D9DC0C5929DAD964005F80C1 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D9DC0C4429DAD845005F80C1 /* Bag */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC0C6129DADCA6005F80C1 /* BagFactory.swift */,
+				D9DC0C4C29DAD915005F80C1 /* BagPresenter.swift */,
+				D9DC0C4B29DAD915005F80C1 /* BagViewController.swift */,
+				D9DC0C4D29DAD915005F80C1 /* BagView.swift */,
+			);
+			path = Bag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +250,9 @@
 			dependencies = (
 			);
 			name = FastFood;
+			packageProductDependencies = (
+				D9DC0C6A29DADFB3005F80C1 /* SnapKit */,
+			);
 			productName = FastFood;
 			productReference = D9DC0C1829DAC38E005F80C1 /* FastFood.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +281,9 @@
 				Base,
 			);
 			mainGroup = D9DC0C0F29DAC38E005F80C1;
+			packageReferences = (
+				D9DC0C6929DADFB3005F80C1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D9DC0C1929DAC38E005F80C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -166,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DC0C2829DAC38F005F80C1 /* LaunchScreen.storyboard in Resources */,
+				D9FA05B029DAE43D002402EA /* SFUIDisplay-Regular.ttf in Resources */,
 				D9DC0C2529DAC38F005F80C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,9 +311,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DC0C3D29DAD78A005F80C1 /* Fonts.swift in Sources */,
+				D9DC0C5429DAD952005F80C1 /* ContactsViewController.swift in Sources */,
+				D9DC0C5E29DADAB1005F80C1 /* ProfileFactory.swift in Sources */,
 				D9DC0C2029DAC38E005F80C1 /* TabBarController.swift in Sources */,
+				D9DC0C4029DAD7AA005F80C1 /* TabBarFactory.swift in Sources */,
+				D9DC0C4829DAD89D005F80C1 /* MenuPresenter.swift in Sources */,
+				D9DC0C5C29DAD964005F80C1 /* ProfileView.swift in Sources */,
+				D9DC0C3A29DAD456005F80C1 /* Colors.swift in Sources */,
+				D9DC0C6229DADCA6005F80C1 /* BagFactory.swift in Sources */,
+				D9DC0C4629DAD86E005F80C1 /* MenuViewController.swift in Sources */,
+				D9DC0C5629DAD952005F80C1 /* ContactsView.swift in Sources */,
+				D9DC0C6629DADD9E005F80C1 /* MenuFactory.swift in Sources */,
+				D9DC0C6829DADF78005F80C1 /* UIVIew+Extension.swift in Sources */,
 				D9DC0C1C29DAC38E005F80C1 /* AppDelegate.swift in Sources */,
+				D9DC0C5029DAD915005F80C1 /* BagView.swift in Sources */,
+				D9DC0C4E29DAD915005F80C1 /* BagViewController.swift in Sources */,
+				D9DC0C4A29DAD8A3005F80C1 /* MenuView.swift in Sources */,
+				D9DC0C6429DADD36005F80C1 /* ContactsFactory.swift in Sources */,
+				D9DC0C5529DAD952005F80C1 /* ContactsPresenter.swift in Sources */,
+				D9DC0C5A29DAD964005F80C1 /* ProfileViewController.swift in Sources */,
 				D9DC0C1E29DAC38E005F80C1 /* SceneDelegate.swift in Sources */,
+				D9DC0C3829DAD405005F80C1 /* Icons.swift in Sources */,
+				D9DC0C4F29DAD915005F80C1 /* BagPresenter.swift in Sources */,
+				D9DC0C6029DADBF8005F80C1 /* UITabBarItem+Extension.swift in Sources */,
+				D9DC0C5B29DAD964005F80C1 /* ProfilePresenter.swift in Sources */,
 				D9DC0C3529DACFDF005F80C1 /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +554,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9DC0C6929DADFB3005F80C1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9DC0C6A29DADFB3005F80C1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9DC0C6929DADFB3005F80C1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9DC0C1029DAC38E005F80C1 /* Project object */;
 }

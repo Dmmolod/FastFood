@@ -13,8 +13,8 @@ struct Tab {
 }
 
 extension Tab {
-    static let menu = Tab(title: "Меню", image: nil)
-    static let contacts = Tab(title: "Контакты", image: nil)
-    static let profile = Tab(title: "Профиль", image: nil)
-    static let bag = Tab(title: "Корзина", image: nil)
+    static let menu = Tab(title: "Меню", image: .tabMenu)
+    static let contacts = Tab(title: "Контакты", image: .tabContacts)
+    static let profile = Tab(title: "Профиль", image: .tabProfile)
+    static let bag = Tab(title: "Корзина", image: .tabBag)
 }
