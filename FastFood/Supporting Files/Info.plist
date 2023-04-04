@@ -5,6 +5,8 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>SFUIDisplay-Regular.ttf</string>
+		<string>SFUIDisplay-Semibold.ttf</string>
+		<string>SFUIDisplay-Medium.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
